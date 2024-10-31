@@ -1,4 +1,4 @@
-import {Link,NavLink} from 'react-router-dom'
+import {Link,NavLink,ScrollRestoration} from 'react-router-dom'
 export default function Footer() {
   return (
       <footer className="bg-white border-y">
@@ -12,18 +12,19 @@ export default function Footer() {
                               alt="Logo"
                           />
                       </Link>
+                      <ScrollRestoration/>
                   </div>
                   <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
                       <div>
                           <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
                           <ul className="text-gray-500 font-medium">
                               <li className="mb-4">
-                                  <Link to="/" className="hover:underline">
+                                  <Link to="/" Sc className="hover:underline">
                                       Home
                                   </Link>
                               </li>
                               <li>
-                                  <Link to="/about" className="hover:underline">
+                                  <Link to="/About" className="hover:underline">
                                       About
                                   </Link>
                               </li>
