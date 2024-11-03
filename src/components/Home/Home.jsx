@@ -2,6 +2,7 @@ import {Link,NavLink} from 'react-router-dom'
 import Bencard from '../common/Bencard/Bencard';
 import Carddata from '../cardData';
 import Tes from '../Tes/Tes';
+import Faq from '../Faq/Faq';
 
 export default function Home() {
   return (
@@ -25,6 +26,9 @@ export default function Home() {
         </section>
         <section>
             <Tes />
+        </section>
+        <section id='Faq'>
+            <Faq/>
         </section>
       </main>
       </>

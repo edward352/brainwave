@@ -5,7 +5,7 @@ import { TbArrowUpRight } from "react-icons/tb";
 const Login = () => {
     const [pass,setPass]=useState(false)
   return (
-    <section className='mt-12 max-w-screen-xl grid place-items-center mx-auto '>
+    <section className='mt-12  mb-12 max-w-screen-xl grid place-items-center mx-auto '>
         <div className='grid  gap-y-8  shadow-2xl px-12 py-8'>
             <div>
                 <h1 className='lg:text-center text-5xl font-semibold mb-4 font-mono'>Login</h1>
@@ -18,7 +18,7 @@ const Login = () => {
             <div className='relative'>
             <label className='mb-2 block font-medium text-gray-600' htmlFor="pass-id">Password</label>
             <input className='w-full mb-1 px-4 py-4 bg-slate-100 rounded-md'  placeholder='Enter your Password' type={pass ? "text":"password"} name="pass-id" id="email-id"/> 
-            <button onClick={()=>(setPass(!pass))} className='absolute right-6 bottom-10 text-xl '>{pass ? <IoMdEyeOff/> :<IoMdEye />}</button>
+            <button onClick={()=>(setPass(!pass))} className='absolute right-6 bottom-11 text-xl '>{pass ? <IoMdEyeOff/> :<IoMdEye />}</button>
             <div className='text-end text-gray-600 '><Link className=''>Forgot Password?</Link ></div>
             </div>
             <div className='text-gray-700'>

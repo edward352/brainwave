@@ -17,15 +17,15 @@ const Tes = () => {
                     </div>
                     <div className='flex justify-between gap-2 mt-2 lg:mt-4'>
                         <div className='flex gap-2'>
-                        <p className='p-2 shadow rounded-md bg-slate-200'>{item.time}</p>
-                        <p className='p-2 shadow rounded-md bg-slate-200'>{item.level}</p></div>
-                        <div><p className='text-end p-2 shadow rounded-md bg-slate-200'>By {item.instructor}</p></div>
+                        <p className='p-2 shadow rounded-md bg-slate-200 text-sm'>{item.time}</p>
+                        <p className='p-2 shadow rounded-md bg-slate-200 text-sm'>{item.level}</p></div>
+                        <div><p className=' p-2 shadow rounded-md bg-slate-200 text-sm'>By {item.instructor}</p></div>
                     </div>
                     <div>
                         <h1 className=' mb-4 text-xl lg:text-2xl'>{item.title}</h1>
                         <p>{item.desc}</p>
                         <div className='grid bg-slate-200 mt-4'>
-                            <button className='border-solid shadow border py-3 text-xl'>Get it Now</button>
+                            <button  className='border-solid shadow border py-3 text-xl'>Get it Now</button>
                         </div>
                     </div>
                 </div>

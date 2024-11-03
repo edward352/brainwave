@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
 import { IoMdEye,IoMdEyeOff} from "react-icons/io";
 import { TbArrowUpRight } from "react-icons/tb";
+
 const Signup = () => {
     const [pass,setPass]=useState(false)
   return (
-    <section className='mt-12 mb-12 max-w-screen-xl grid place-items-center mx-auto  '>
-        <div className='grid gap-y-8 shadow-2xl px-12 py-8'>
+
+             <section className=' mt-12 mb-12 max-w-screen-xl  grid place-items-center   mx-auto  '>
+        <div className='grid gap-y-8 shadow-2xl px-12 py-8 '>
             <div>
                 <h1 className='lg:text-center text-5xl font-semibold mb-4 font-mono'>Sign Up</h1>
                 <p className='text-gray-600 font-medium '>Create an account to unlock exlusive features.</p>
@@ -39,7 +41,10 @@ const Signup = () => {
             </div>
         </div>
     </section>
+       
   )
 }
 
 export default Signup
+
+

@@ -10,7 +10,7 @@ export default function Header() {
   };
   let [openMenu,setopenMenu]=useState(false)
   return (
-    <header className="shadow-md z-50 min-w-full sticky top-0 ">
+    <header className="shadow-md z-50 sticky top-0 ">
       <nav className="lg:flex bg-white py-2.5 items-center justify-between max-w-screen-xl mx-auto lg:px-6 px-4 ">
         <div>
           <Link to="/" className="flex items-center">
@@ -28,11 +28,11 @@ export default function Header() {
         </div>
         <div className={`absolute lg:static bg-white lg:z-auto z-[-1] left-0 w-full lg:w-auto transition-all duration-500 ease-in ${openMenu ? 'top-21 opacity-100':'top-[-500px]'} `}>
           <ul className="lg:flex lg:items-center lg:gap-6 text-center">
-            <li><NavLink className={() => `border-b  hover:text-orange-700 duration-200 block py-4 lg:border-0 lg:py-0  lg:my-0  `}>Courses</NavLink></li>
-            <li><NavLink className={() => `border-b  hover:text-orange-700 duration-200 block py-4 lg:border-0 lg:py-0  lg:my-0 `}>Testimonials</NavLink></li>
-            <li> <NavLink className={() =>`border-b  hover:text-orange-700 duration-200 block py-4  lg:border-0 lg:py-0 lg:my-0 `}>FAQ</NavLink></li>
-            <li> <NavLink to="/Signup" className={() => `border-b  hover:text-orange-700 duration-200 block py-4 lg:border-0 lg:py-0 lg:my-0 `}>Get Started</NavLink></li>
-            <li> <NavLink to="/Login" className={() => ` border-b  hover:text-orange-700 duration-200  block lg:py-0 lg:border-0 py-4 lg:my-0`}>Login</NavLink></li>
+            <li><NavLink to="/CoursesCard" className={() => `border-b  hover:text-orange-700 duration-200 block py-4 lg:border-0 lg:py-0  lg:my-0  `}>Courses</NavLink></li>
+            <li> <NavLink href="#Faq" className={() =>`border-b  hover:text-orange-700 duration-200 block py-4  lg:border-0 lg:py-0 lg:my-0 `}>FAQ</NavLink></li>
+            <li> <NavLink to="/Contact" className={() =>`border-b  hover:text-orange-700 duration-200 block py-4  lg:border-0 lg:py-0 lg:my-0 `}>Contact Us</NavLink></li>
+            <li> <NavLink to="/Signup" className={() => `border-b lg:bg-orange-400 lg:px-6 rounded-md lg:text-white lg:hover:text-white lg:hover:opacity-80 py-4 hover:text-orange-700 duration-200  block  lg:border-0 lg:py-3 lg:my-0 `}>Get Started</NavLink></li>
+            <li> <NavLink to="/Login" className={() => ` border-b lg:bg-orange-400 lg:px-8 rounded-md lg:text-white lg:hover:text-white lg:hover:opacity-80 py-4 hover:text-orange-700 duration-200  block  lg:border-0 lg:py-3 lg:my-0`}>Login</NavLink></li>
          
           </ul >
           
