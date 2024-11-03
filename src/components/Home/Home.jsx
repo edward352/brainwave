@@ -24,7 +24,7 @@ export default function Home() {
         <section>
             <Bencard />
         </section>
-        <section>
+        <section id="courses">
             <Tes />
         </section>
         <section id='Faq'>
