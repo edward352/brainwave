@@ -38,7 +38,7 @@ const Faq = () => {
           <p className="font-medium text-md">What kind of support can I expect from instructors?</p>
           <div>
             <button className="bg-slate-300 p-2  rounded-2xl -" onClick={() => setOpenFaq2(!openFaq2) }>
-              {setOpenFaq2 ?  <FiPlus/>  :<RxCross1/>}
+              {openFaq2 ?  <FiPlus/>  :<RxCross1/>}
             </button>
           </div>
         </div>

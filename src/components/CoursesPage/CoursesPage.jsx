@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Tes from "../Tes/Tes";
 const CoursesPage = () => {
   return (
     <div>
-      Course 
+      <Tes/>
     </div>
   )
 }
