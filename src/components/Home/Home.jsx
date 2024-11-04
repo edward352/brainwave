@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import Bencard from "../common/Bencard/Bencard";
-import Carddata from "../cardData";
+import Carddata from "../Carddata";
 import Tes from "../Tes/Tes";
 import Faq from "../Faq/Faq";
 
