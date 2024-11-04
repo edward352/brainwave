@@ -10,7 +10,7 @@ const Depthcard = () => {
                 <div className='border p-2'>
         <div className=''>
             <p className='text-5xl font-mono font-bold text-end'>{item.id}</p>
-            <h1 className='text-xl font-semibold mb-2'>Introduction to Web Design</h1>
+            <h1 className='text-2xl font-semibold mb-2'>Introduction to Web Design</h1>
         </div>
         <div className='border p-3  hover:border-orange-600 transition-all duration-300'>
             <div>

@@ -15,8 +15,8 @@ const CoursesCard = () => {
         design today!
       </p>
     </div>
-    <div>
-        <img className='rounded-md' src="src\assets\img\pexels-cottonbro-5483077.jpg" alt="" />
+    <div className=''>
+        <img className='rounded-md   w-full' src="src\assets\img\pexels-cottonbro-5483077.jpg" alt="" />
     </div>
     <div className=''>
         <Depthcard/>
