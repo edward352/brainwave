@@ -1,6 +1,6 @@
 import React from 'react'
 import { CiClock2 } from "react-icons/ci";
-import Depthcarddata from 'D:/projectclg/brainwave/src/components/Depthcarddata.js'
+import Depthcarddata from '/src/components/Depthcarddata.js'
 const Depthcard = () => {
   return (
     <section className='border-b gap-2'>

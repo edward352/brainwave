@@ -1,9 +1,11 @@
 import React from 'react'
-import Tes from '../Tes/Tes'
+import Tes from "../Tes/Tes";
 const CoursesPage = () => {
   return (
-    <Tes />
+    <div>
+      <Tes/>
+    </div>
   )
 }
 
-export default CoursesPage
+export default CoursesPage;

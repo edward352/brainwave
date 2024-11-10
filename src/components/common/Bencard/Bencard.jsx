@@ -1,5 +1,5 @@
 import React from "react";
-import Carddata from "../../cardData";
+import Carddata from "../../Carddata";
 const Bencard = () => {
   return (
     <section className="mt-8 grid place-items-center">
