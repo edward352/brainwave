@@ -9,7 +9,7 @@ const Bencard = () => {
       <div className="grid lg:grid-cols-3 gap-2">
         {Carddata.map((item)=>
         (
-            <div className=" p-6 bg-white border border-gray-200 rounded-lg shadow">
+            <div key={item.id} className=" p-6 bg-white border border-gray-200 rounded-lg shadow">
             <div className="">
               <p className="text-5xl font-mono font-bold text-end">{item.id}</p>
               <div>

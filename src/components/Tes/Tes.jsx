@@ -12,7 +12,10 @@ const Tes = () => {
         </div>
         <div className="grid lg:grid-cols-2 gap-4">
           {Tesdata.map((item) => (
-            <div className="grid  gap-4 px-10 shadow-xl py-4  items-stretch ">
+            <div
+              key={item.id}
+              className="grid  gap-4 px-10 shadow-xl py-4  items-stretch "
+            >
               <div className="grid place-items-center">
                 <img
                   className="rounded-md float-left w-[600px] h-[400px] object-cover"
@@ -38,9 +41,11 @@ const Tes = () => {
               <div className="flex gap-4 flex-col ">
                 <h1 className="text-xl lg:text-2xl">{item.title}</h1>
                 <p>{item.desc}</p>
-                     <Link className=""  to="/CoursesCard">
-                    <button className="py-3 text-xl  bg-slate-200 text-center w-full">Get it Now</button>
-                  </Link>
+                <Link className="" to={item.navigate}>
+                  <button className="py-3 text-xl  bg-slate-200 text-center w-full">
+                    Get it Now
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

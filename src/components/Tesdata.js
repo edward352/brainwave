@@ -5,7 +5,9 @@ const Tesdata=[
         "time":"4 Weeks",
         "level":"Beginner",
         "instructor":"Emily",
-        "src":"src/assets/img/webdesignfunda.png"
+        "src":"src/assets/img/webdesignfunda.png",
+        "navigate":"/CoursesCard",
+        "id":0
     },
     {
         "title":"Advance JavaScript",
@@ -13,7 +15,9 @@ const Tesdata=[
         "time":"6 Weeks",
         "level":"Advance",
         "instructor":"Sarah",
-        "src":"src/assets/img/pexels-format-380633-1029757.jpg"
+        "src":"src/assets/img/pexels-format-380633-1029757.jpg",
+         "navigate":"/CoursesCard",
+         "id":1
     },
     {
         "title":"Mobile App Development",
@@ -21,7 +25,8 @@ const Tesdata=[
         "time":"8 Weeks",
         "level":"Intermediate",
         "instructor":"David",
-        "src":"src/assets/img/pexels-cottonbro-5483077.jpg"
+        "src":"src/assets/img/pexels-cottonbro-5483077.jpg",
+         "navigate":"/CoursesCard"
     },
     {
         "title":"Front-End Web Development",
@@ -29,7 +34,8 @@ const Tesdata=[
         "time":"10 Weeks",
         "level":"Intermediate",
         "instructor":"Michael",
-        "src":"src/assets/img/frontend.png"
+        "src":"src/assets/img/frontend.png",
+         "navigate":"/CoursesCard"
     }
 ]
 export default Tesdata

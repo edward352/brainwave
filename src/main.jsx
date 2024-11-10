@@ -12,6 +12,7 @@ import Login from './components/Login/Login'
 import Signup from './components/Signup/Signup'
 import CoursesCard from './components/common/Bencard/CoursesCard'
 import CoursesPage from './components/CoursesPage/CoursesPage'
+import Depthcard from './components/common/Bencard/Depthcard'
 const router=createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout/>}>
@@ -19,6 +20,7 @@ const router=createBrowserRouter(
       <Route path='/login' element={<Login/>}/>
       <Route path='/Contact' element={<Contact/>}/>
       <Route path='/CoursesCard' element={<CoursesCard/>}/>
+      <Route path='/Depthcard' element={<Depthcard/>}/>
       <Route path='/CoursesPage' element={<CoursesPage/>}/>
       <Route path='/signup' element={<Signup/>}/>
     </Route>

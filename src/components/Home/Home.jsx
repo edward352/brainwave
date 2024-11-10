@@ -26,9 +26,9 @@ export default function Home() {
             </h3>
           </div>
           <div className="mt-6">
-            <button className="text-white px-6 rounded-lg py-2 bg-orange-700">
+            <Link to="/CoursesPage" className="text-white px-6 rounded-lg py-2 bg-orange-700">
               View Courses
-            </button>
+            </Link>
           </div>
         </section>
         <section>
