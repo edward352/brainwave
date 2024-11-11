@@ -26,10 +26,15 @@ const Signup = () => {
             <input className='w-full mb-1 px-4 py-4 bg-slate-100 rounded-md'  placeholder='Enter your Password' type={pass ? "text":"password"} name="pass-id" id="email-id"/> 
             <button onClick={()=>(setPass(!pass))} className='absolute right-6 bottom-6 text-xl '>{pass ? <IoMdEyeOff/> :<IoMdEye />}</button>
             </div>
-            <div className='text-gray-700'>
+            <div className='text-gray-700 flex flex-col gap-2'>
+            <div className='text-gray-700 '>
                 <input className='accent-slate-200 mr-2 scale-125 cursor-pointer' type="checkbox" name="rem-id" id="rem-id" />
-                
+                <label   htmlFor="ins-id ">Student Account</label>
+            </div>
+                <div>
+                <input className='accent-slate-200 mr-2 scale-125 cursor-pointer' type="checkbox" name="rem-id" id="rem-id" />
                 <label  htmlFor="rem-id ">I agree with <a className="underline" href="">Terms of Use</a> and <a className="underline" href="">Privacy Policy</a></label>
+            </div>
             </div>
             <div className='flex flex-col gap-4'>
                 <button className='bg-orange-400 py-3 text-white rounded-md font-medium'>Login</button>

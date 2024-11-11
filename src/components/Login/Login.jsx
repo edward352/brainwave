@@ -21,11 +21,19 @@ const Login = () => {
             <button onClick={()=>(setPass(!pass))} className='absolute right-6 bottom-11 text-xl '>{pass ? <IoMdEyeOff/> :<IoMdEye />}</button>
             <div className='text-end text-gray-600 '><Link className=''>Forgot Password?</Link ></div>
             </div>
+            <div className='flex gap-4'>
             <div className='text-gray-700'>
                 <input className='accent-slate-200 mr-2 scale-125 cursor-pointer' type="checkbox" name="rem-id" id="rem-id" />
                 
                 <label   htmlFor="rem-id ">Remember Me</label>
             </div>
+            <div className='text-gray-700 '>
+                <input className='accent-slate-200 mr-2 scale-125 cursor-pointer' type="checkbox" name="rem-id" id="rem-id" />
+                
+                <label   htmlFor="ins-id ">Student Account</label>
+            </div>
+            </div>
+            
             <div className='flex flex-col gap-4'>
                 <button className='bg-orange-400 py-3 text-white rounded-md font-medium'>Login</button>
                <button className='bg-slate-200 py-2 rounded-md font-medium'><img className='inline-block w-8 mr-2 ' src="src\assets\img\googlelogin.svg" alt="" />Login with Google</button>
